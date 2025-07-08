@@ -257,12 +257,10 @@ public class GridManager : MonoBehaviour
 		{
 			if (rowParentGO != null)
 			{
-				Debug.Log("rowParentGO != null");
 				EffectsManager.Instance.PlayGoodTextEffect(rowParentGO.transform.position);
 			}
 			if (currentRowSlots != null)
 			{
-				Debug.Log("currentRowSlots != null");
 				Slot[] array = currentRowSlots;
 				foreach (Slot slot2 in array)
 				{

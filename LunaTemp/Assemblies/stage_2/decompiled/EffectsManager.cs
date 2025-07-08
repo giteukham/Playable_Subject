@@ -41,23 +41,21 @@ public class EffectsManager : MonoBehaviour
 		goodTextPool = new Queue<GameObject>();
 		for (int i = 0; i < poolSize; i++)
 		{
-			GameObject p1 = Object.Instantiate(rowClearParticlePrefab, base.transform);
-			p1.SetActive(false);
-			rowClearParticlePool.Enqueue(p1);
-			GameObject p2 = Object.Instantiate(goodTextPrefab, base.transform);
-			if (p2.GetComponent<SpriteRenderer>() == null)
+			GameObject clearParticle = Object.Instantiate(rowClearParticlePrefab, base.transform);
+			clearParticle.SetActive(false);
+			rowClearParticlePool.Enqueue(clearParticle);
+			GameObject gootText = Object.Instantiate(goodTextPrefab, base.transform);
+			if (gootText.GetComponent<SpriteRenderer>() == null)
 			{
 				Debug.LogError("goodTextPrefab에 SpriteRenderer 컴포넌트가 없습니다");
 			}
-			p2.SetActive(false);
-			goodTextPool.Enqueue(p2);
+			gootText.SetActive(false);
+			goodTextPool.Enqueue(gootText);
 		}
 	}
 
 	public void PlayRowClearEffect(Vector3 position)
 	{
-		Vector3 vector = position;
-		Debug.Log("PlayRowClearEffect called at position: " + vector.ToString());
 		GameObject particle = GetFromPool(rowClearParticlePool, rowClearParticlePrefab);
 		if (!(particle == null))
 		{
@@ -83,9 +81,9 @@ public class EffectsManager : MonoBehaviour
 			startColor.a = 0f;
 			spriteRenderer.color = startColor;
 			Sequence sequence = DOTween.Sequence();
-			sequence.Append(spriteRenderer.DOFade(1f, 0.3f));
-			sequence.AppendInterval(0.5f);
-			sequence.Append(spriteRenderer.DOFade(0f, 0.3f));
+			sequence.Append(spriteRenderer.DOFade(1f, 0.2f));
+			sequence.AppendInterval(0.4f);
+			sequence.Append(spriteRenderer.DOFade(0f, 0.2f));
 			sequence.OnComplete(delegate
 			{
 				goodTextObject.SetActive(false);

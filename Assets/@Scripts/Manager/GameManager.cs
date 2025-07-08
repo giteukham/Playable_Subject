@@ -1,4 +1,6 @@
 using UnityEngine;
+using Luna.Unity;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +11,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float idleTimeThreshold = 3f;
 
     private float idleTimer = 0f;
+
+    [Tooltip("이 횟수만큼 드래그하면 엔드 카드를 표시합니다.")]
+    [SerializeField] private int dragCountForEndCard = 20;
+
+    [Tooltip("이 횟수만큼 드래그하면 스토어로 이동합니다.")]
+    [SerializeField] private int dragCountForStoreOpen = 8;
+    private int currentDragCount = 0;
 
     void Awake()
     {
@@ -39,4 +48,21 @@ public class GameManager : MonoBehaviour
         if (UIManager.Instance != null)
             UIManager.Instance.SetIdlePromptActive(false);
     }
+
+    public void TriggerAppStoreOpen()
+    {
+        Playable.InstallFullGame();
+    }
+
+    public void OnStuffDragged()
+    {
+        currentDragCount++;
+        // 드래그 횟수에 따라 스토어 오픈
+        if (currentDragCount == dragCountForStoreOpen)
+            TriggerAppStoreOpen();
+        // 정해진 횟수에 도달하면 엔드 카드 표시
+        if (currentDragCount >= dragCountForEndCard)
+            UIManager.Instance.ShowEndCard(true);
+    }
+
 }

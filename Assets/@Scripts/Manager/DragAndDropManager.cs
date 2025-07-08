@@ -1,5 +1,5 @@
 using UnityEngine;
-using DG.Tweening; 
+using UnityEngine.EventSystems;
 
 public class DragAndDropManager : MonoBehaviour
 {
@@ -27,9 +27,18 @@ public class DragAndDropManager : MonoBehaviour
     // 드래그 시작
     public void StartDrag(Stuff stuff)
     {
+        if (EventSystem.current.IsPointerOverGameObject()) 
+        {
+            EndDrag(stuff);
+            return;
+        }
+
         if (currentDraggedStuff != null) return;
 
-        if (GameManager.Instance != null) GameManager.Instance.OnPlayerInteraction();
+        if (GameManager.Instance == null) return;
+
+        GameManager.Instance.OnPlayerInteraction();
+        GameManager.Instance.OnStuffDragged();
 
         currentDraggedStuff = stuff;
         originalStuffPosition = stuff.transform.position; // 현재 월드 위치 저장
@@ -92,17 +101,13 @@ public class DragAndDropManager : MonoBehaviour
             // 슬롯에 물건 배치
             targetSlot.PlaceStuff(currentDraggedStuff);
             if (GridManager.Instance != null)
-            {
                 GridManager.Instance.CheckRowClearance(targetSlot.rowIndex);
-            }
         }
         else // 드롭된 자리가 비어있지 않거나, 슬롯이 아니라면 원래 위치로 복귀
         {   
             currentDraggedStuff.transform.position = originalStuffPosition; // 원래 위치로 되돌리기
             if (originalStuffParentSlot != null)
-            {
                 originalStuffParentSlot.PlaceStuff(currentDraggedStuff); // 원본 파일의 내용
-            }
         }
         
         currentDraggedStuff = null; // 드래그 중인 물건 초기화

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class DragAndDropManager : MonoBehaviour
 {
@@ -35,12 +36,14 @@ public class DragAndDropManager : MonoBehaviour
 
 	public void StartDrag(Stuff stuff)
 	{
-		if (!(currentDraggedStuff != null))
+		if (EventSystem.current.IsPointerOverGameObject())
 		{
-			if (GameManager.Instance != null)
-			{
-				GameManager.Instance.OnPlayerInteraction();
-			}
+			EndDrag(stuff);
+		}
+		else if (!(currentDraggedStuff != null) && !(GameManager.Instance == null))
+		{
+			GameManager.Instance.OnPlayerInteraction();
+			GameManager.Instance.OnStuffDragged();
 			currentDraggedStuff = stuff;
 			originalStuffPosition = stuff.transform.position;
 			originalStuffParentSlot = stuff.GetComponentInParent<Slot>();

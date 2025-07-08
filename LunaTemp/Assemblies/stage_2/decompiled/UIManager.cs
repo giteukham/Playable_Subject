@@ -28,6 +28,16 @@ public class UIManager : MonoBehaviour
 
 	private bool isIdleAnimationPlaying = false;
 
+	[Header("엔드 카드")]
+	[SerializeField]
+	private GameObject endCardPanel;
+
+	[Tooltip("애니메이션을 적용할 'Play Now' 버튼")]
+	[SerializeField]
+	private RectTransform playNowButton;
+
+	private Tween buttonPulseTween;
+
 	public static UIManager Instance { get; private set; }
 
 	private void Awake()
@@ -52,11 +62,15 @@ public class UIManager : MonoBehaviour
 		{
 			textBackGroundObject.SetActive(false);
 		}
+		if (endCardPanel != null)
+		{
+			endCardPanel.SetActive(false);
+		}
 	}
 
 	public void SetIdlePromptActive(bool isActive)
 	{
-		if (idlePromptText == null)
+		if (idlePromptText == null || endCardPanel.activeSelf)
 		{
 			return;
 		}
@@ -73,7 +87,7 @@ public class UIManager : MonoBehaviour
 				startPos.y = startY;
 				rectTransform.anchoredPosition = startPos;
 				idlePromptTween = DOTween.Sequence().Append(rectTransform.DOAnchorPosY(endY, moveDuration)).Append(rectTransform.DOAnchorPosY(startY, moveDuration))
-					.SetEase(Ease.InOutSine)
+					.SetEase(Ease.Linear)
 					.SetLoops(-1);
 			}
 		}
@@ -83,6 +97,22 @@ public class UIManager : MonoBehaviour
 			idlePromptTween?.Kill();
 			textBackGroundObject.SetActive(false);
 			idlePromptText.gameObject.SetActive(false);
+		}
+	}
+
+	public void ShowEndCard(bool show)
+	{
+		if (!(endCardPanel == null))
+		{
+			buttonPulseTween?.Kill();
+			endCardPanel.SetActive(show);
+			if (show && playNowButton != null)
+			{
+				playNowButton.localScale = Vector3.one * 0.9f;
+				buttonPulseTween = DOTween.Sequence().Append(playNowButton.DOScale(1.1f, 0.6f)).Append(playNowButton.DOScale(0.9f, 0.6f))
+					.SetEase(Ease.Linear)
+					.SetLoops(-1);
+			}
 		}
 	}
 }

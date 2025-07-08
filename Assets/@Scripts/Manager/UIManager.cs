@@ -19,6 +19,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] private float moveDuration = 1.0f;
     private Tween idlePromptTween;
     private bool isIdleAnimationPlaying = false; 
+
+    [Header("엔드 카드")]
+    [SerializeField] private GameObject endCardPanel;
+    [Tooltip("애니메이션을 적용할 'Play Now' 버튼")]
+    [SerializeField] private RectTransform playNowButton; // 버튼의 RectTransform을 직접 연결
+
+    private Tween buttonPulseTween; // 버튼 애니메이션을 제어하기 위한 변수
     
     void Awake()
     {
@@ -32,11 +39,13 @@ public class UIManager : MonoBehaviour
             idlePromptText.gameObject.SetActive(false);
         if (textBackGroundObject != null)
             textBackGroundObject.SetActive(false);
+        if (endCardPanel != null)
+            endCardPanel.SetActive(false);
     }
 
     public void SetIdlePromptActive(bool isActive)
     {
-        if (idlePromptText == null) return;
+        if (idlePromptText == null || endCardPanel.activeSelf) return;
 
         if (isActive)
         {
@@ -66,6 +75,27 @@ public class UIManager : MonoBehaviour
             idlePromptTween?.Kill();
             textBackGroundObject.SetActive(false);
             idlePromptText.gameObject.SetActive(false);
+        }
+    }
+
+    public void ShowEndCard(bool show)
+    {
+        if(endCardPanel == null) return;
+
+        buttonPulseTween?.Kill();
+
+        endCardPanel.SetActive(show);
+
+        // 엔드 카드를 켤 때만 애니메이션을 시작
+        if (show && playNowButton != null)
+        {
+            playNowButton.localScale = Vector3.one * 0.9f;
+
+            buttonPulseTween = DOTween.Sequence()
+                .Append(playNowButton.DOScale(1.1f, 0.6f))
+                .Append(playNowButton.DOScale(0.9f, 0.6f)) 
+                .SetEase(Ease.Linear)
+                .SetLoops(-1); // 이 시퀀스 전체를 무한 반복
         }
     }
 }

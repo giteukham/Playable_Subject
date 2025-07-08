@@ -86,9 +86,7 @@ public class EffectsManager : MonoBehaviour
     private GameObject GetFromPool(Queue<GameObject> pool, GameObject prefab)
     {
         if (pool.Count > 0)
-        {
             return pool.Dequeue();
-        }
         // 풀이 비었다면 새로 생성
         return Instantiate(prefab, transform);
     }
