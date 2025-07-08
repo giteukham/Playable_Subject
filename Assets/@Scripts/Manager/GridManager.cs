@@ -12,6 +12,8 @@ public class RowData
 
 public class GridManager : MonoBehaviour
 {
+    public static GridManager Instance { get; private set; }
+
     [Header("격자 생성 설정")]
     private const int TotalRows = 9;
     [Tooltip("격자 전체 Y 위치 추가 조절")]
@@ -44,6 +46,14 @@ public class GridManager : MonoBehaviour
         {
             System.Array.Resize(ref levelData, TotalRows);
         }
+    }
+
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+            Destroy(gameObject);
+        else
+            Instance = this;
     }
 
     void Start()
@@ -86,9 +96,10 @@ public class GridManager : MonoBehaviour
                 Vector3 position = new Vector3(centeredStartX + col * slotWidth, startY - (row * slotHeight), 0);
                 
                 GameObject newSlot = Instantiate(slotPrefab, prefabsParent);
+                Slot slotComponent = newSlot.GetComponent<Slot>();
                 newSlot.transform.localPosition = position;
                 newSlot.transform.localScale =  Vector3.one * slotScale;
-                newSlot.GetComponent<Slot>().Initialize(row, currentRowData.material);
+                slotComponent.Initialize(row, currentRowData.material);
 
                 if (row == 0) continue;
 
@@ -101,6 +112,7 @@ public class GridManager : MonoBehaviour
                             wrongStuffs[i].gameObject.transform.SetParent(newSlot.transform);
                             wrongStuffs[i].gameObject.transform.localPosition = new Vector3(-1f, -1f, -4.5f);
                             wrongStuffs[i].gameObject.transform.localScale = Vector3.one * stuffScale;
+                            slotComponent.PlaceStuff(wrongStuffs[i]);
                             plcaedWrongStuffs.Add(wrongStuffs[i]);
                             wrongStuffs.RemoveAt(i);
                             break;
@@ -111,12 +123,15 @@ public class GridManager : MonoBehaviour
                             {
                                 if (stuff.rowIndex != row)
                                 {
+                                    Slot wrongSlot = stuff.transform.parent.gameObject.GetComponent<Slot>();
                                     wrongStuffs[i].gameObject.transform.SetParent(stuff.transform.parent);
                                     wrongStuffs[i].gameObject.transform.localPosition = new Vector3(-1f, -1f, -4.5f);
                                     wrongStuffs[i].gameObject.transform.localScale = Vector3.one;
+                                    wrongSlot.PlaceStuff(wrongStuffs[i]);
                                     stuff.gameObject.transform.SetParent(newSlot.transform);
                                     stuff.gameObject.transform.localPosition = new Vector3(-1f, -1f, -4.5f);
                                     stuff.gameObject.transform.localScale = Vector3.one * stuffScale;
+                                    slotComponent.PlaceStuff(stuff);
                                     break;
                                 }
                             }
@@ -126,8 +141,10 @@ public class GridManager : MonoBehaviour
                 else
                 {
                     GameObject newStuff = Instantiate(stuffPrefab, newSlot.transform);
+                    Stuff stuffComponent = newStuff.GetComponent<Stuff>();
                     newStuff.transform.localPosition = new Vector3(-1f, -1f, -4.5f); // Stuff 위치 미세 조정
-                    newStuff.GetComponent<Stuff>().Initialize(row, currentRowData.material);
+                    stuffComponent.Initialize(row, currentRowData.material);
+                    slotComponent.PlaceStuff(stuffComponent);
                 }
             }
         }
