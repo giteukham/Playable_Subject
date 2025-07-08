@@ -89,11 +89,18 @@ public class DragAndDropManager : MonoBehaviour
         {
             // 슬롯에 물건 배치
             targetSlot.PlaceStuff(currentDraggedStuff);
+            if (GridManager.Instance != null)
+            {
+                GridManager.Instance.CheckRowClearance(targetSlot.rowIndex);
+            }
         }
         else // 드롭된 자리가 비어있지 않거나, 슬롯이 아니라면 원래 위치로 복귀
         {   
             currentDraggedStuff.transform.position = originalStuffPosition; // 원래 위치로 되돌리기
-            originalStuffParentSlot.PlaceStuff(currentDraggedStuff);
+            if (originalStuffParentSlot != null)
+            {
+                originalStuffParentSlot.PlaceStuff(currentDraggedStuff); // 원본 파일의 내용
+            }
         }
         
         currentDraggedStuff = null; // 드래그 중인 물건 초기화

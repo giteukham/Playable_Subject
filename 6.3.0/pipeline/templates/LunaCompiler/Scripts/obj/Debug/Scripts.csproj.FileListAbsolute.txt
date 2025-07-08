@@ -40,7 +40,6 @@ C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\De
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll
-C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll

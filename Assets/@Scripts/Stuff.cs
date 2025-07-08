@@ -4,25 +4,25 @@ public class Stuff : MonoBehaviour
 {
     private DragAndDropManager dragManager;
     public int rowIndex { get; private set; }
-    private Renderer rendererr;
+    public Renderer _renderer;
 
     public void Initialize(int rowIndex, Material material)
     {
         this.rowIndex = rowIndex;
-        if (rendererr == null) rendererr = GetComponent<Renderer>();
-        rendererr.material = material;
+        if (_renderer == null) _renderer = GetComponent<Renderer>();
+        _renderer.material = material;
 
         if (dragManager == null)
         {
             dragManager = FindObjectOfType<DragAndDropManager>();
             if (dragManager == null)
             {
-                Debug.LogError("DragAndDropManager가 씬에 없습니다.");
+                Debug.LogError("DragAndDropManager가 Scene에 없습니다.");
             }
         }
     }
 
-     private void OnMouseDown()
+    private void OnMouseDown()
     {
         if (dragManager != null)
         {

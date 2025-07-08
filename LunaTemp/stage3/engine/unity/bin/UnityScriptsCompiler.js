@@ -1,4 +1,4 @@
-if ( TRACE ) { TRACE( JSON.parse( '["ArmRotation#init","ArmRotation#Update","CamraFollow#init","CamraFollow#FixedUpdate","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#GameStart","GameManager#Update","GameManager#ObjectiveMessage","GameManager#ShowEndCard","GameManager#restartGame","GameManager#EndGame","GameManager#InstallGame","LevelGenerator#init","LevelGenerator#Start","ObjectPool#Initialize","ObjectPool#CreateNewObject","ObjectPool#GetObject","ObjectPool#ReturnToPool","ObjectPool#ReturnAllToPool","PauseManager#Start","PauseManager#Resume","PauseManager#Pause","PlatformScript#init","PlatformScript#OnCollisionEnter2D","PlayerController#init","PlayerController#Awake","PlayerController#Start","PlayerController#Update","PlayerController#FixedUpdate","PlayerController#TouchInput","PlayerController#ClampPositions","PlayerController#endGame","Shroom#OnTriggerEnter2D","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#init","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#mainTexture#get","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#init","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Initialize","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Awake","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#OnPopulateMesh","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Update","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#LateUpdate","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#OnDestroy","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#StartParticleEmission","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#StopParticleEmission","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#PauseParticleEmission","Winner#OnTriggerEnter2D"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["ArmRotation#init","ArmRotation#Update","CamraFollow#init","CamraFollow#FixedUpdate","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DragAndDropManager#init","DragAndDropManager#Awake","DragAndDropManager#StartDrag","DragAndDropManager#Drag","DragAndDropManager#EndDrag","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#GameStart","GameManager#Update","GameManager#ObjectiveMessage","GameManager#ShowEndCard","GameManager#restartGame","GameManager#EndGame","GameManager#InstallGame","GridManager#init","GridManager#init","GridManager#OnValidate","GridManager#Awake","GridManager#Start","GridManager#CreateGrid","GridManager#GetWrongIndexes","GridManager#Shuffle","GridManager#CheckRowClearance","GridManager#ClearAndHide","GridManager#MoveRemainingRowsDown","GridManager#isRowClearedByRowIndex","LevelGenerator#init","LevelGenerator#Start","ObjectPool#Initialize","ObjectPool#CreateNewObject","ObjectPool#GetObject","ObjectPool#ReturnToPool","ObjectPool#ReturnAllToPool","PauseManager#Start","PauseManager#Resume","PauseManager#Pause","PlatformScript#init","PlatformScript#OnCollisionEnter2D","PlayerController#init","PlayerController#Awake","PlayerController#Start","PlayerController#Update","PlayerController#FixedUpdate","PlayerController#TouchInput","PlayerController#ClampPositions","PlayerController#endGame","Shroom#OnTriggerEnter2D","Slot#Initialize","Slot#PlaceStuff","Slot#ClearStuff","Stuff#Initialize","Stuff#OnMouseDown","Stuff#OnMouseDrag","Stuff#OnMouseUp","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#init","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#mainTexture#get","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#init","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Initialize","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Awake","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#OnPopulateMesh","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#Update","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#LateUpdate","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#OnDestroy","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#StartParticleEmission","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#StopParticleEmission","UnityEngine.UI.Extensions.CasualGame.UIParticleSystem#PauseParticleEmission","Winner#OnTriggerEnter2D"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -1856,6 +1856,114 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
     });
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
 
+    /*DragAndDropManager start.*/
+    Bridge.define("DragAndDropManager", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                Instance: null
+            }
+        },
+        fields: {
+            currentDraggedStuff: null,
+            originalStuffPosition: null,
+            originalStuffParentSlot: null,
+            currentDragDepth: 0,
+            dragOffsetFromCenter: null,
+            dragZOffset: 0,
+            slotLayer: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "DragAndDropManager#init", this ); }
+
+                this.originalStuffPosition = new UnityEngine.Vector3();
+                this.dragOffsetFromCenter = new UnityEngine.Vector3();
+                this.slotLayer = new UnityEngine.LayerMask();
+                this.dragZOffset = -1.0;
+            }
+        },
+        methods: {
+            /*DragAndDropManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "DragAndDropManager#Awake", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(DragAndDropManager.Instance, null) && UnityEngine.MonoBehaviour.op_Inequality(DragAndDropManager.Instance, this)) {
+                    UnityEngine.Object.Destroy(Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject);
+                } else {
+                    DragAndDropManager.Instance = this;
+                }
+            },
+            /*DragAndDropManager.Awake end.*/
+
+            /*DragAndDropManager.StartDrag start.*/
+            StartDrag: function (stuff) {
+if ( TRACE ) { TRACE( "DragAndDropManager#StartDrag", this ); }
+
+                if (!(UnityEngine.MonoBehaviour.op_Inequality(this.currentDraggedStuff, null))) {
+                    this.currentDraggedStuff = stuff;
+                    this.originalStuffPosition = stuff.transform.position.$clone();
+                    this.originalStuffParentSlot = stuff.GetComponentInParent(Slot);
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.originalStuffParentSlot, null) && UnityEngine.MonoBehaviour.op_Equality(this.originalStuffParentSlot.placedStuff, stuff)) {
+                        this.originalStuffParentSlot.placedStuff = null;
+                        this.originalStuffParentSlot.isCorrectlyFilled = false;
+                    }
+                    this.currentDragDepth = UnityEngine.Camera.main.WorldToScreenPoint(this.currentDraggedStuff.transform.position).z;
+                    var mouseWorldPosition = UnityEngine.Camera.main.ScreenToWorldPoint(new pc.Vec3( UnityEngine.Input.mousePosition.x, UnityEngine.Input.mousePosition.y, this.currentDragDepth ));
+                    this.dragOffsetFromCenter = this.currentDraggedStuff.transform.position.$clone().sub( mouseWorldPosition );
+                    var currentWorldPos = this.currentDraggedStuff.transform.position.$clone();
+                    this.currentDraggedStuff.transform.position = new pc.Vec3( currentWorldPos.x, currentWorldPos.y, currentWorldPos.z + this.dragZOffset );
+                    this.currentDraggedStuff.transform.SetParent(null);
+                }
+            },
+            /*DragAndDropManager.StartDrag end.*/
+
+            /*DragAndDropManager.Drag start.*/
+            Drag: function (stuff) {
+if ( TRACE ) { TRACE( "DragAndDropManager#Drag", this ); }
+
+                if (!(UnityEngine.MonoBehaviour.op_Inequality(this.currentDraggedStuff, stuff))) {
+                    var mousePosition = UnityEngine.Input.mousePosition.$clone();
+                    mousePosition.z = UnityEngine.Camera.main.WorldToScreenPoint(this.currentDraggedStuff.transform.position).z;
+                    var newWorldPosition = UnityEngine.Camera.main.ScreenToWorldPoint(mousePosition);
+                    this.currentDraggedStuff.transform.position = newWorldPosition.$clone().add( this.dragOffsetFromCenter );
+                }
+            },
+            /*DragAndDropManager.Drag end.*/
+
+            /*DragAndDropManager.EndDrag start.*/
+            EndDrag: function (stuff) {
+if ( TRACE ) { TRACE( "DragAndDropManager#EndDrag", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.currentDraggedStuff, stuff)) {
+                    return;
+                }
+                var ray = UnityEngine.Camera.main.ScreenPointToRay(UnityEngine.Input.mousePosition);
+                var targetSlot = null;
+                var hit = { v : new UnityEngine.RaycastHit() };
+                if (UnityEngine.Physics.Raycast$1(ray, hit, Number.POSITIVE_INFINITY, UnityEngine.LayerMask.op_Implicit(this.slotLayer.$clone()))) {
+                    targetSlot = hit.v.collider.GetComponent(Slot);
+                }
+                if (UnityEngine.MonoBehaviour.op_Inequality(targetSlot, null) && UnityEngine.MonoBehaviour.op_Equality(targetSlot.placedStuff, null)) {
+                    targetSlot.PlaceStuff(this.currentDraggedStuff);
+                    if (UnityEngine.MonoBehaviour.op_Inequality(GridManager.Instance, null)) {
+                        GridManager.Instance.CheckRowClearance(targetSlot.rowIndex);
+                    }
+                } else {
+                    this.currentDraggedStuff.transform.position = this.originalStuffPosition.$clone();
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.originalStuffParentSlot, null)) {
+                        this.originalStuffParentSlot.PlaceStuff(this.currentDraggedStuff);
+                    }
+                }
+                this.currentDraggedStuff = null;
+            },
+            /*DragAndDropManager.EndDrag end.*/
+
+
+        }
+    });
+    /*DragAndDropManager end.*/
+
     /*GameManager start.*/
     Bridge.define("GameManager", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -2124,6 +2232,320 @@ if ( TRACE ) { TRACE( "GameManager#InstallGame", this ); }
         }
     });
     /*GameManager+CharatcerType end.*/
+
+    /*GridManager start.*/
+    Bridge.define("GridManager", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                TotalRows: 0,
+                Instance: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "GridManager#init", this ); }
+
+                    this.TotalRows = 9;
+                }
+            }
+        },
+        fields: {
+            verticalOffset: 0,
+            seed: 0,
+            totalGridHeight: 0,
+            prefabsParent: null,
+            rowParentPrefab: null,
+            slotPrefab: null,
+            stuffPrefab: null,
+            slotScale: 0,
+            stuffScale: 0,
+            slotWidth: 0,
+            slotHeight: 0,
+            levelData: null,
+            rowParents: null,
+            gridSlotsByRow: null,
+            rowMoveDownDuration: 0,
+            isRowCleared: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "GridManager#init", this ); }
+
+                this.verticalOffset = 0.0;
+                this.seed = 3;
+                this.slotScale = 0.25;
+                this.stuffScale = 1.0;
+                this.slotWidth = 0.6;
+                this.slotHeight = 1.0;
+                this.levelData = System.Array.init(9, null, RowData);
+                this.rowMoveDownDuration = 0.3;
+            }
+        },
+        methods: {
+            /*GridManager.OnValidate start.*/
+            OnValidate: function () {
+if ( TRACE ) { TRACE( "GridManager#OnValidate", this ); }
+
+                if (this.levelData.length !== 9) {
+                    System.Array.resize(Bridge.ref(this, "levelData"), 9, null, RowData);
+                }
+            },
+            /*GridManager.OnValidate end.*/
+
+            /*GridManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "GridManager#Awake", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(GridManager.Instance, null) && UnityEngine.MonoBehaviour.op_Inequality(GridManager.Instance, this)) {
+                    UnityEngine.Object.Destroy(Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject);
+                } else {
+                    GridManager.Instance = this;
+                }
+            },
+            /*GridManager.Awake end.*/
+
+            /*GridManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "GridManager#Start", this ); }
+
+                this.CreateGrid();
+            },
+            /*GridManager.Start end.*/
+
+            /*GridManager.CreateGrid start.*/
+            CreateGrid: function () {
+if ( TRACE ) { TRACE( "GridManager#CreateGrid", this ); }
+
+                var $t;
+                this.rowParents = new (System.Collections.Generic.List$1(UnityEngine.GameObject)).ctor();
+                this.gridSlotsByRow = new (System.Collections.Generic.List$1(System.Array.type(Slot))).ctor();
+                this.isRowCleared = System.Array.init(9, false, System.Boolean);
+                for (var j = 0; j < 9; j = (j + 1) | 0) {
+                    this.isRowCleared[j] = false;
+                }
+                var wrongStuffs = new (System.Collections.Generic.List$1(Stuff)).ctor();
+                var plcaedWrongStuffs = new (System.Collections.Generic.List$1(Stuff)).ctor();
+                for (var row2 = 0; row2 < 9; row2 = (row2 + 1) | 0) {
+                    var currentRowData = this.levelData[row2];
+                    for (var i = 0; i < currentRowData.wrongStuffCount; i = (i + 1) | 0) {
+                        var newStuff = UnityEngine.Object.Instantiate(UnityEngine.GameObject, this.stuffPrefab);
+                        var stuffComponent = newStuff.GetComponent(Stuff);
+                        stuffComponent.Initialize(row2, currentRowData.material);
+                        wrongStuffs.add(stuffComponent);
+                    }
+                }
+                this.Shuffle(Stuff, wrongStuffs, new System.Random.$ctor1(this.seed));
+                this.totalGridHeight = 8.0 * this.slotHeight;
+                var startY = this.totalGridHeight / 2.0 + this.verticalOffset;
+                for (var row = 0; row < 9; row = (row + 1) | 0) {
+                    var rowParentGO = UnityEngine.Object.Instantiate(UnityEngine.GameObject, this.rowParentPrefab, this.prefabsParent);
+                    rowParentGO.name = System.String.format("RowParent_{0}", [Bridge.box(row, System.Int32)]);
+                    rowParentGO.transform.localPosition = new pc.Vec3( 0.0, startY - row * this.slotHeight, 0.0 );
+                    this.rowParents.add(rowParentGO);
+                    var currentRowData2 = this.levelData[row];
+                    var slotsInRow = (row + 1) | 0;
+                    var centeredStartX = 0.0 - row * this.slotWidth / 2.0;
+                    var currentRowSlots = System.Array.init(slotsInRow, null, Slot);
+                    var wrongSlotIndexes = this.GetWrongIndexes(slotsInRow, currentRowData2.wrongStuffCount);
+                    for (var col = 0; col < slotsInRow; col = (col + 1) | 0) {
+                        var position = new pc.Vec3( centeredStartX + col * this.slotWidth, 0.0, 0.0 );
+                        var newSlot = UnityEngine.Object.Instantiate(UnityEngine.GameObject, this.slotPrefab, rowParentGO.transform);
+                        var slotComponent = newSlot.GetComponent(Slot);
+                        newSlot.transform.localPosition = position.$clone();
+                        newSlot.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( this.slotScale );
+                        slotComponent.Initialize(row, currentRowData2.material);
+                        currentRowSlots[col] = slotComponent;
+                        newSlot.isStatic = true;
+                        if (row === 0) {
+                            continue;
+                        }
+                        if (wrongSlotIndexes.contains(col)) {
+                            for (var k = 0; k < wrongStuffs.Count; k = (k + 1) | 0) {
+                                if (wrongStuffs.getItem(k).rowIndex !== row) {
+                                    wrongStuffs.getItem(k).gameObject.transform.SetParent(newSlot.transform);
+                                    wrongStuffs.getItem(k).gameObject.transform.localPosition = new pc.Vec3( -1.0, -1.0, -4.5 );
+                                    wrongStuffs.getItem(k).gameObject.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( this.stuffScale );
+                                    slotComponent.PlaceStuff(wrongStuffs.getItem(k));
+                                    plcaedWrongStuffs.add(wrongStuffs.getItem(k));
+                                    wrongStuffs.removeAt(k);
+                                    break;
+                                }
+                                if (wrongStuffs.Count !== 1 || wrongStuffs.getItem(k).rowIndex !== row) {
+                                    continue;
+                                }
+                                $t = Bridge.getEnumerator(plcaedWrongStuffs);
+                                try {
+                                    while ($t.moveNext()) {
+                                        var stuff = $t.Current;
+                                        if (stuff.rowIndex !== row) {
+                                            var wrongSlot = stuff.transform.parent.gameObject.GetComponent(Slot);
+                                            wrongStuffs.getItem(k).gameObject.transform.SetParent(stuff.transform.parent);
+                                            wrongStuffs.getItem(k).gameObject.transform.localPosition = new pc.Vec3( -1.0, -1.0, -4.5 );
+                                            wrongStuffs.getItem(k).gameObject.transform.localScale = new pc.Vec3( 1, 1, 1 );
+                                            wrongSlot.PlaceStuff(wrongStuffs.getItem(k));
+                                            stuff.gameObject.transform.SetParent(newSlot.transform);
+                                            stuff.gameObject.transform.localPosition = new pc.Vec3( -1.0, -1.0, -4.5 );
+                                            stuff.gameObject.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( this.stuffScale );
+                                            slotComponent.PlaceStuff(stuff);
+                                            break;
+                                        }
+                                    }
+                                } finally {
+                                    if (Bridge.is($t, System.IDisposable)) {
+                                        $t.System$IDisposable$Dispose();
+                                    }
+                                }
+                            }
+                        } else {
+                            var newStuff2 = UnityEngine.Object.Instantiate(UnityEngine.GameObject, this.stuffPrefab, newSlot.transform);
+                            var stuffComponent2 = newStuff2.GetComponent(Stuff);
+                            newStuff2.transform.localPosition = new pc.Vec3( -1.0, -1.0, -4.5 );
+                            stuffComponent2.Initialize(row, currentRowData2.material);
+                            slotComponent.PlaceStuff(stuffComponent2);
+                        }
+                    }
+                    this.gridSlotsByRow.add(currentRowSlots);
+                }
+            },
+            /*GridManager.CreateGrid end.*/
+
+            /*GridManager.GetWrongIndexes start.*/
+            GetWrongIndexes: function (totalSlots, wrongCount) {
+if ( TRACE ) { TRACE( "GridManager#GetWrongIndexes", this ); }
+
+                if (wrongCount <= 0) {
+                    return new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
+                }
+                var seedRandom = new System.Random.$ctor1(this.seed);
+                var wrongIndexesList = (System.Linq.Enumerable.range(0, totalSlots).orderBy(function (x) {
+                    return seedRandom.Next();
+                })).take(wrongCount);
+                return new (System.Collections.Generic.HashSet$1(System.Int32)).$ctor1(wrongIndexesList);
+            },
+            /*GridManager.GetWrongIndexes end.*/
+
+            /*GridManager.Shuffle start.*/
+            Shuffle: function (T, list, rng) {
+if ( TRACE ) { TRACE( "GridManager#Shuffle", this ); }
+
+                var j = list.Count;
+                while (j > 1) {
+                    j = (j - 1) | 0;
+                    var i = rng.Next$1(((j + 1) | 0));
+                    var value = Bridge.rValue(list.getItem(i));
+                    list.setItem(i, Bridge.rValue(list.getItem(j)));
+                    list.setItem(j, Bridge.rValue(value));
+                }
+            },
+            /*GridManager.Shuffle end.*/
+
+            /*GridManager.CheckRowClearance start.*/
+            CheckRowClearance: function (rowToCheck) {
+if ( TRACE ) { TRACE( "GridManager#CheckRowClearance", this ); }
+
+                var $t;
+                if (rowToCheck === 0 || this.isRowCleared[rowToCheck]) {
+                    return;
+                }
+                var currentRowSlots = this.gridSlotsByRow.getItem(rowToCheck);
+                if (currentRowSlots == null || currentRowSlots.length === 0) {
+                    return;
+                }
+                var allSlotsCorrect = true;
+                $t = Bridge.getEnumerator(currentRowSlots);
+                try {
+                    while ($t.moveNext()) {
+                        var slot = $t.Current;
+                        if (UnityEngine.MonoBehaviour.op_Equality(slot, null) || UnityEngine.MonoBehaviour.op_Equality(slot.placedStuff, null) || !slot.isCorrectlyFilled) {
+                            allSlotsCorrect = false;
+                            break;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                if (allSlotsCorrect) {
+                    this.isRowCleared[rowToCheck] = true;
+                    this.ClearAndHide(rowToCheck);
+                }
+            },
+            /*GridManager.CheckRowClearance end.*/
+
+            /*GridManager.ClearAndHide start.*/
+            ClearAndHide: function (rowToHide) {
+if ( TRACE ) { TRACE( "GridManager#ClearAndHide", this ); }
+
+                var $t;
+                var rowParentGO = this.rowParents.getItem(rowToHide);
+                if (UnityEngine.GameObject.op_Equality(rowParentGO, null)) {
+                    return;
+                }
+                var currentRowSlots = this.gridSlotsByRow.getItem(rowToHide);
+                if (currentRowSlots != null) {
+                    var array = currentRowSlots;
+                    $t = Bridge.getEnumerator(array);
+                    try {
+                        while ($t.moveNext()) {
+                            var slot = $t.Current;
+                            if (UnityEngine.MonoBehaviour.op_Inequality(slot, null)) {
+                                slot.ClearStuff();
+                            }
+                        }
+                    } finally {
+                        if (Bridge.is($t, System.IDisposable)) {
+                            $t.System$IDisposable$Dispose();
+                        }
+                    }
+                }
+                UnityEngine.Object.Destroy(rowParentGO);
+                this.rowParents.setItem(rowToHide, null);
+                this.gridSlotsByRow.setItem(rowToHide, null);
+                this.MoveRemainingRowsDown(rowToHide);
+            },
+            /*GridManager.ClearAndHide end.*/
+
+            /*GridManager.MoveRemainingRowsDown start.*/
+            MoveRemainingRowsDown: function (clearedRowIndex) {
+if ( TRACE ) { TRACE( "GridManager#MoveRemainingRowsDown", this ); }
+
+                var sequence = DG.Tweening.DOTween.Sequence();
+                for (var row = 0; row < 9; row = (row + 1) | 0) {
+                    if (this.isRowClearedByRowIndex(row)) {
+                        continue;
+                    }
+                    var rowParentGO = System.Linq.Enumerable.from(this.rowParents, UnityEngine.GameObject).elementAtOrDefault(row, null);
+                    if (!(UnityEngine.GameObject.op_Inequality(rowParentGO, null))) {
+                        continue;
+                    }
+                    var clearedRowsBelowCurrent = 0;
+                    for (var i = (row + 1) | 0; i < 9; i = (i + 1) | 0) {
+                        if (this.isRowClearedByRowIndex(i)) {
+                            clearedRowsBelowCurrent = (clearedRowsBelowCurrent + 1) | 0;
+                        }
+                    }
+                    var startY = this.totalGridHeight / 2.0 + this.verticalOffset;
+                    var originalYForThisRow = startY - row * this.slotHeight;
+                    var finalTargetY = originalYForThisRow - clearedRowsBelowCurrent * this.slotHeight;
+                    var targetPosition = new pc.Vec3( rowParentGO.transform.localPosition.x, finalTargetY, rowParentGO.transform.localPosition.z );
+                    DG.Tweening.TweenSettingsExtensions.Join(sequence, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOLocalMove(rowParentGO.transform, targetPosition.$clone(), this.rowMoveDownDuration), DG.Tweening.Ease.OutBounce));
+                }
+            },
+            /*GridManager.MoveRemainingRowsDown end.*/
+
+            /*GridManager.isRowClearedByRowIndex start.*/
+            isRowClearedByRowIndex: function (index) {
+if ( TRACE ) { TRACE( "GridManager#isRowClearedByRowIndex", this ); }
+
+                return index >= 0 && index < this.isRowCleared.length && this.isRowCleared != null && this.isRowCleared.length !== 0 && this.isRowCleared.length > index && System.Nullable.eq(Bridge.as(System.Array.get(this.isRowCleared, index), System.Boolean, true), true);
+            },
+            /*GridManager.isRowClearedByRowIndex end.*/
+
+
+        }
+    });
+    /*GridManager end.*/
 
     /*LevelGenerator start.*/
     Bridge.define("LevelGenerator", {
@@ -2458,6 +2880,15 @@ if ( TRACE ) { TRACE( "PlayerController#endGame", this ); }
     });
     /*PlayerController end.*/
 
+    /*RowData start.*/
+    Bridge.define("RowData", {
+        fields: {
+            material: null,
+            wrongStuffCount: 0
+        }
+    });
+    /*RowData end.*/
+
     /*Shroom start.*/
     Bridge.define("Shroom", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -2481,6 +2912,120 @@ if ( TRACE ) { TRACE( "Shroom#OnTriggerEnter2D", this ); }
         }
     });
     /*Shroom end.*/
+
+    /*Slot start.*/
+    Bridge.define("Slot", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            placedStuff: null,
+            _renderer: null,
+            isCorrectlyFilled: false,
+            rowIndex: 0
+        },
+        methods: {
+            /*Slot.Initialize start.*/
+            Initialize: function (rowIndex, material) {
+if ( TRACE ) { TRACE( "Slot#Initialize", this ); }
+
+                this.rowIndex = rowIndex;
+                if (UnityEngine.Component.op_Equality(this._renderer, null)) {
+                    this._renderer = this.GetComponent(UnityEngine.Renderer);
+                }
+                this._renderer.material = material;
+                this.isCorrectlyFilled = false;
+            },
+            /*Slot.Initialize end.*/
+
+            /*Slot.PlaceStuff start.*/
+            PlaceStuff: function (stuff) {
+if ( TRACE ) { TRACE( "Slot#PlaceStuff", this ); }
+
+                this.placedStuff = stuff;
+                stuff.transform.SetParent(this.transform);
+                stuff.transform.localPosition = new pc.Vec3( -1.0, -1.0, -4.5 );
+                stuff.transform.localScale = new pc.Vec3( 1, 1, 1 );
+                this.isCorrectlyFilled = stuff.rowIndex === this.rowIndex;
+            },
+            /*Slot.PlaceStuff end.*/
+
+            /*Slot.ClearStuff start.*/
+            ClearStuff: function () {
+if ( TRACE ) { TRACE( "Slot#ClearStuff", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.placedStuff, null)) {
+                    this.placedStuff.gameObject.SetActive(false);
+                    this.placedStuff = null;
+                }
+                this.isCorrectlyFilled = false;
+            },
+            /*Slot.ClearStuff end.*/
+
+
+        }
+    });
+    /*Slot end.*/
+
+    /*Stuff start.*/
+    Bridge.define("Stuff", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            dragManager: null,
+            _renderer: null,
+            rowIndex: 0
+        },
+        methods: {
+            /*Stuff.Initialize start.*/
+            Initialize: function (rowIndex, material) {
+if ( TRACE ) { TRACE( "Stuff#Initialize", this ); }
+
+                this.rowIndex = rowIndex;
+                if (UnityEngine.Component.op_Equality(this._renderer, null)) {
+                    this._renderer = this.GetComponent(UnityEngine.Renderer);
+                }
+                this._renderer.material = material;
+                if (UnityEngine.MonoBehaviour.op_Equality(this.dragManager, null)) {
+                    this.dragManager = UnityEngine.Object.FindObjectOfType(DragAndDropManager);
+                    if (UnityEngine.MonoBehaviour.op_Equality(this.dragManager, null)) {
+                        UnityEngine.Debug.LogError$2("DragAndDropManager\uac00 \uc52c\uc5d0 \uc5c6\uc2b5\ub2c8\ub2e4.");
+                    }
+                }
+            },
+            /*Stuff.Initialize end.*/
+
+            /*Stuff.OnMouseDown start.*/
+            OnMouseDown: function () {
+if ( TRACE ) { TRACE( "Stuff#OnMouseDown", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.dragManager, null)) {
+                    this.dragManager.StartDrag(this);
+                }
+            },
+            /*Stuff.OnMouseDown end.*/
+
+            /*Stuff.OnMouseDrag start.*/
+            OnMouseDrag: function () {
+if ( TRACE ) { TRACE( "Stuff#OnMouseDrag", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.dragManager, null)) {
+                    this.dragManager.Drag(this);
+                }
+            },
+            /*Stuff.OnMouseDrag end.*/
+
+            /*Stuff.OnMouseUp start.*/
+            OnMouseUp: function () {
+if ( TRACE ) { TRACE( "Stuff#OnMouseUp", this ); }
+
+                if (UnityEngine.MonoBehaviour.op_Inequality(this.dragManager, null)) {
+                    this.dragManager.EndDrag(this);
+                }
+            },
+            /*Stuff.OnMouseUp end.*/
+
+
+        }
+    });
+    /*Stuff end.*/
 
     /*UnityEngine.UI.Extensions.CasualGame.UIParticleSystem start.*/
     Bridge.define("UnityEngine.UI.Extensions.CasualGame.UIParticleSystem", {
@@ -2828,6 +3373,10 @@ if ( TRACE ) { TRACE( "Winner#OnTriggerEnter2D", this ); }
     $m("CamraFollow", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"smoothSpeed","t":4,"rt":$n[0].Single,"sn":"smoothSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"target","t":4,"rt":$n[1].Transform,"sn":"target"}]}; }, $n);
     /*CamraFollow end.*/
 
+    /*DragAndDropManager start.*/
+    $m("DragAndDropManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Drag","t":8,"pi":[{"n":"stuff","pt":Stuff,"ps":0}],"sn":"Drag","rt":$n[0].Void,"p":[Stuff]},{"a":2,"n":"EndDrag","t":8,"pi":[{"n":"stuff","pt":Stuff,"ps":0}],"sn":"EndDrag","rt":$n[0].Void,"p":[Stuff]},{"a":2,"n":"StartDrag","t":8,"pi":[{"n":"stuff","pt":Stuff,"ps":0}],"sn":"StartDrag","rt":$n[0].Void,"p":[Stuff]},{"a":2,"n":"Instance","is":true,"t":16,"rt":DragAndDropManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":DragAndDropManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[DragAndDropManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"currentDragDepth","t":4,"rt":$n[0].Single,"sn":"currentDragDepth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentDraggedStuff","t":4,"rt":Stuff,"sn":"currentDraggedStuff"},{"a":1,"n":"dragOffsetFromCenter","t":4,"rt":$n[1].Vector3,"sn":"dragOffsetFromCenter"},{"at":[new UnityEngine.HeaderAttribute("\ub4dc\ub798\uadf8 \uc124\uc815"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"dragZOffset","t":4,"rt":$n[0].Single,"sn":"dragZOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"originalStuffParentSlot","t":4,"rt":Slot,"sn":"originalStuffParentSlot"},{"a":1,"n":"originalStuffPosition","t":4,"rt":$n[1].Vector3,"sn":"originalStuffPosition"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"slotLayer","t":4,"rt":$n[1].LayerMask,"sn":"slotLayer"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":DragAndDropManager,"sn":"Instance"}]}; }, $n);
+    /*DragAndDropManager end.*/
+
     /*GameManager start.*/
     $m("GameManager", function () { return {"nested":[GameManager.CharatcerType],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"EndGame","t":8,"sn":"EndGame","rt":$n[0].Void},{"a":2,"n":"GameStart","t":8,"sn":"GameStart","rt":$n[2].IEnumerator},{"a":2,"n":"InstallGame","t":8,"sn":"InstallGame","rt":$n[0].Void},{"a":1,"n":"ObjectiveMessage","t":8,"sn":"ObjectiveMessage","rt":$n[2].IEnumerator},{"a":2,"n":"ShowEndCard","t":8,"sn":"ShowEndCard","rt":$n[2].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"restartGame","t":8,"sn":"restartGame","rt":$n[0].Void},{"a":2,"n":"Hand","t":4,"rt":$n[1].GameObject,"sn":"Hand"},{"a":2,"n":"Intro","t":4,"rt":$n[3].Text,"sn":"Intro"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Tutorial Text", 1, "Introduction Tutorial", false, null)],"a":2,"n":"IntroText","t":4,"rt":$n[0].String,"sn":"IntroText"},{"a":2,"n":"Target","t":4,"rt":$n[3].Text,"sn":"Target"},{"a":1,"n":"_curentCount","is":true,"t":4,"rt":$n[0].Int32,"sn":"_curentCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_gameEnded","t":4,"rt":$n[0].Boolean,"sn":"_gameEnded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("End Card Description", 0, "End Card Details", false, null)],"a":2,"n":"description","t":4,"rt":$n[0].String,"sn":"description"},{"a":2,"n":"endCard","t":4,"rt":$n[1].GameObject,"sn":"endCard"},{"a":2,"n":"endCardTitle","t":4,"rt":$n[3].Text,"sn":"endCardTitle"},{"a":2,"n":"endDescription","t":4,"rt":$n[3].Text,"sn":"endDescription"},{"a":2,"n":"endInstall","t":4,"rt":$n[3].Text,"sn":"endInstall"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"iconIMG","t":4,"rt":$n[3].Image,"sn":"iconIMG"},{"at":[new UnityEngine.HeaderAttribute("Icon Sprite"),new UnityEngine.LunaPlaygroundAssetAttribute("Icon Image", 4, "Change Icon")],"a":2,"n":"iconTex","t":4,"rt":$n[1].Texture2D,"sn":"iconTex"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("End Card Install Text", 0, "End Card Details", false, null)],"a":2,"n":"installText","t":4,"rt":$n[0].String,"sn":"installText"},{"a":2,"n":"instance","is":true,"t":4,"rt":GameManager,"sn":"instance"},{"a":2,"n":"introText","t":4,"rt":$n[1].GameObject,"sn":"introText"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Retry Count", 5, "Number Retries", false, null)],"a":2,"n":"maxCount","t":4,"rt":$n[0].Int32,"sn":"maxCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"oneTime","t":4,"rt":$n[0].Boolean,"sn":"oneTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"player","t":4,"rt":$n[1].GameObject,"sn":"player"},{"a":2,"n":"retry","t":4,"rt":$n[3].Text,"sn":"retry"},{"a":2,"n":"retryBtn","t":4,"rt":$n[1].GameObject,"sn":"retryBtn"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("End Card Retry Text", 0, "End Card Details", false, null)],"a":2,"n":"retryText","t":4,"rt":$n[0].String,"sn":"retryText"},{"a":2,"n":"score","t":4,"rt":$n[3].Text,"sn":"score"},{"a":2,"n":"targetObj","t":4,"rt":$n[1].GameObject,"sn":"targetObj"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Tutorial Target Text", 1, "Introduction Tutorial", false, null)],"a":2,"n":"targetText","t":4,"rt":$n[0].String,"sn":"targetText"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Text Colour", 2, "Change Text Colours", false, null)],"a":2,"n":"textColours","t":4,"rt":$n[1].Color,"sn":"textColours"},{"at":[new UnityEngine.HeaderAttribute("Playground End Card fields"),new UnityEngine.LunaPlaygroundFieldAttribute("End Card Title", 0, "End Card Details", false, null)],"a":2,"n":"title","t":4,"rt":$n[0].String,"sn":"title"},{"at":[new UnityEngine.HeaderAttribute("Choose Character"),new UnityEngine.LunaPlaygroundFieldAttribute("Character Cat or Dog", 3, "Character Selection", false, null)],"a":2,"n":"type","t":4,"rt":GameManager.CharatcerType,"sn":"type","box":function ($v) { return Bridge.box($v, GameManager.CharatcerType, System.Enum.toStringFn(GameManager.CharatcerType));}}]}; }, $n);
     /*GameManager end.*/
@@ -2835,6 +3384,10 @@ if ( TRACE ) { TRACE( "Winner#OnTriggerEnter2D", this ); }
     /*GameManager+CharatcerType start.*/
     $m("GameManager.CharatcerType", function () { return {"td":GameManager,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Cat","is":true,"t":4,"rt":GameManager.CharatcerType,"sn":"Cat","box":function ($v) { return Bridge.box($v, GameManager.CharatcerType, System.Enum.toStringFn(GameManager.CharatcerType));}},{"a":2,"n":"Dog","is":true,"t":4,"rt":GameManager.CharatcerType,"sn":"Dog","box":function ($v) { return Bridge.box($v, GameManager.CharatcerType, System.Enum.toStringFn(GameManager.CharatcerType));}}]}; }, $n);
     /*GameManager+CharatcerType end.*/
+
+    /*GridManager start.*/
+    $m("GridManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CheckRowClearance","t":8,"pi":[{"n":"rowToCheck","pt":$n[0].Int32,"ps":0}],"sn":"CheckRowClearance","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"ClearAndHide","t":8,"pi":[{"n":"rowToHide","pt":$n[0].Int32,"ps":0}],"sn":"ClearAndHide","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"CreateGrid","t":8,"sn":"CreateGrid","rt":$n[0].Void},{"a":1,"n":"GetWrongIndexes","t":8,"pi":[{"n":"totalSlots","pt":$n[0].Int32,"ps":0},{"n":"wrongCount","pt":$n[0].Int32,"ps":1}],"sn":"GetWrongIndexes","rt":$n[4].HashSet$1(System.Int32),"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"MoveRemainingRowsDown","t":8,"pi":[{"n":"clearedRowIndex","pt":$n[0].Int32,"ps":0}],"sn":"MoveRemainingRowsDown","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"OnValidate","t":8,"sn":"OnValidate","rt":$n[0].Void},{"a":1,"n":"Shuffle","t":8,"pi":[{"n":"list","pt":$n[4].List$1(System.Object),"ps":0},{"n":"rng","pt":$n[0].Random,"ps":1}],"tpc":1,"tprm":["T"],"sn":"Shuffle","rt":$n[0].Void,"p":[$n[4].List$1(System.Object),$n[0].Random]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"isRowClearedByRowIndex","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"isRowClearedByRowIndex","rt":$n[0].Boolean,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"Instance","is":true,"t":16,"rt":GridManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":GridManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[GridManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.HeaderAttribute("\uaca9\uc790 \uc0dd\uc131 \uc124\uc815")],"a":1,"n":"TotalRows","is":true,"t":4,"rt":$n[0].Int32,"sn":"TotalRows","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"gridSlotsByRow","t":4,"rt":$n[4].List$1(System.Array.type(Slot)),"sn":"gridSlotsByRow"},{"a":1,"n":"isRowCleared","t":4,"rt":$n[0].Array.type(System.Boolean),"sn":"isRowCleared"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"levelData","t":4,"rt":System.Array.type(RowData),"sn":"levelData"},{"at":[new UnityEngine.HeaderAttribute("\ud504\ub9ac\ud339 \uc124\uc815"),new UnityEngine.TooltipAttribute("\uc2ac\ub86f \ud504\ub9ac\ud339 \ubd80\ubaa8"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"prefabsParent","t":4,"rt":$n[1].Transform,"sn":"prefabsParent"},{"at":[new UnityEngine.HeaderAttribute("\uc904 \ud074\ub9ac\uc5b4 \uc124\uc815"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rowMoveDownDuration","t":4,"rt":$n[0].Single,"sn":"rowMoveDownDuration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\uc904 \ubd80\ubaa8 GameObject \ud504\ub9ac\ud339 (\uc120\ud0dd\uc0ac\ud56d, \ube48 GameObject\uc5ec\ub3c4 \ub428)"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rowParentPrefab","t":4,"rt":$n[1].GameObject,"sn":"rowParentPrefab"},{"a":1,"n":"rowParents","t":4,"rt":$n[4].List$1(UnityEngine.GameObject),"sn":"rowParents"},{"at":[new UnityEngine.TooltipAttribute("\uc2dc\ub4dc \uac12"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"seed","t":4,"rt":$n[0].Int32,"sn":"seed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.TooltipAttribute("\uac00\ub85c \uac04\uaca9"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"slotHeight","t":4,"rt":$n[0].Single,"sn":"slotHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\uc2ac\ub86f \ud504\ub9ac\ud339"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"slotPrefab","t":4,"rt":$n[1].GameObject,"sn":"slotPrefab"},{"at":[new UnityEngine.TooltipAttribute("\uc2ac\ub86f \ud504\ub9ac\ud339 \ud06c\uae30"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"slotScale","t":4,"rt":$n[0].Single,"sn":"slotScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("\uc2ac\ub86f \ud504\ub9ac\ud339 \uc124\uc815"),new UnityEngine.TooltipAttribute("\uc138\ub85c \uac04\uaca9"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"slotWidth","t":4,"rt":$n[0].Single,"sn":"slotWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\ubb3c\uac74 \ud504\ub9ac\ud339"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stuffPrefab","t":4,"rt":$n[1].GameObject,"sn":"stuffPrefab"},{"at":[new UnityEngine.TooltipAttribute("\ubb3c\uac74 \ud504\ub9ac\ud339 \ud06c\uae30"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stuffScale","t":4,"rt":$n[0].Single,"sn":"stuffScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"totalGridHeight","t":4,"rt":$n[0].Single,"sn":"totalGridHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.TooltipAttribute("\uaca9\uc790 \uc804\uccb4 Y \uc704\uce58 \ucd94\uac00 \uc870\uc808"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"verticalOffset","t":4,"rt":$n[0].Single,"sn":"verticalOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":GridManager,"sn":"Instance"}]}; }, $n);
+    /*GridManager end.*/
 
     /*LevelGenerator start.*/
     $m("LevelGenerator", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"division","t":4,"rt":$n[0].Int32,"sn":"division","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"levelWidth","t":4,"rt":$n[0].Single,"sn":"levelWidth","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"maxY","t":4,"rt":$n[0].Single,"sn":"maxY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"minY","t":4,"rt":$n[0].Single,"sn":"minY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"mushroom","t":4,"rt":$n[1].GameObject,"sn":"mushroom"},{"a":2,"n":"numberOfPlatform","t":4,"rt":$n[0].Int32,"sn":"numberOfPlatform","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"platform","t":4,"rt":$n[1].GameObject,"sn":"platform"},{"a":2,"n":"spawnHeight","t":4,"rt":$n[0].Single,"sn":"spawnHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
@@ -2856,9 +3409,21 @@ if ( TRACE ) { TRACE( "Winner#OnTriggerEnter2D", this ); }
     $m("PlayerController", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.Rigidbody2D)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"ClampPositions","t":8,"sn":"ClampPositions","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"TouchInput","t":8,"sn":"TouchInput","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"endGame","t":8,"sn":"endGame","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"ClampledValue","t":4,"rt":$n[0].Single,"sn":"ClampledValue","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"_manager","t":4,"rt":GameManager,"sn":"_manager"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"anim","t":4,"rt":$n[1].Animator,"sn":"anim"},{"a":2,"n":"cam","t":4,"rt":$n[1].Transform,"sn":"cam"},{"a":1,"n":"deltaX","t":4,"rt":$n[0].Single,"sn":"deltaX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"deltaY","t":4,"rt":$n[0].Single,"sn":"deltaY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"hand","t":4,"rt":$n[1].GameObject,"sn":"hand"},{"a":2,"n":"introText","t":4,"rt":$n[1].GameObject,"sn":"introText"},{"a":1,"n":"isPressed","t":4,"rt":$n[0].Boolean,"sn":"isPressed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"lastPosition","t":4,"rt":$n[0].Single,"sn":"lastPosition","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"maxHeight","t":4,"rt":$n[0].Single,"sn":"maxHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"moveSpeed","t":4,"rt":$n[0].Single,"sn":"moveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"offScreen","t":4,"rt":$n[0].Single,"sn":"offScreen","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"player","t":4,"rt":System.Array.type(UnityEngine.Sprite),"sn":"player"},{"a":1,"n":"rb","t":4,"rt":$n[1].Rigidbody2D,"sn":"rb"},{"a":1,"n":"ren","t":4,"rt":$n[1].SpriteRenderer,"sn":"ren"},{"a":2,"n":"targetObj","t":4,"rt":$n[1].GameObject,"sn":"targetObj"}]}; }, $n);
     /*PlayerController end.*/
 
+    /*RowData start.*/
+    $m("RowData", function () { return {"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"material","t":4,"rt":$n[1].Material,"sn":"material"},{"at":[new UnityEngine.RangeAttribute(0.0, 9.0)],"a":2,"n":"wrongStuffCount","t":4,"rt":$n[0].Int32,"sn":"wrongStuffCount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*RowData end.*/
+
     /*Shroom start.*/
     $m("Shroom", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter2D","t":8,"pi":[{"n":"other","pt":$n[1].Collider2D,"ps":0}],"sn":"OnTriggerEnter2D","rt":$n[0].Void,"p":[$n[1].Collider2D]},{"a":2,"n":"particle","t":4,"rt":$n[1].GameObject,"sn":"particle"}]}; }, $n);
     /*Shroom end.*/
+
+    /*Slot start.*/
+    $m("Slot", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ClearStuff","t":8,"sn":"ClearStuff","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"rowIndex","pt":$n[0].Int32,"ps":0},{"n":"material","pt":$n[1].Material,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Int32,$n[1].Material]},{"a":2,"n":"PlaceStuff","t":8,"pi":[{"n":"stuff","pt":Stuff,"ps":0}],"sn":"PlaceStuff","rt":$n[0].Void,"p":[Stuff]},{"a":2,"n":"rowIndex","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_rowIndex","t":8,"rt":$n[0].Int32,"fg":"rowIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_rowIndex","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"rowIndex"},"fn":"rowIndex"},{"a":1,"n":"_renderer","t":4,"rt":$n[1].Renderer,"sn":"_renderer"},{"a":2,"n":"isCorrectlyFilled","t":4,"rt":$n[0].Boolean,"sn":"isCorrectlyFilled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"placedStuff","t":4,"rt":Stuff,"sn":"placedStuff"},{"a":1,"backing":true,"n":"<rowIndex>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"rowIndex","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*Slot end.*/
+
+    /*Stuff start.*/
+    $m("Stuff", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"rowIndex","pt":$n[0].Int32,"ps":0},{"n":"material","pt":$n[1].Material,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Int32,$n[1].Material]},{"a":1,"n":"OnMouseDown","t":8,"sn":"OnMouseDown","rt":$n[0].Void},{"a":1,"n":"OnMouseDrag","t":8,"sn":"OnMouseDrag","rt":$n[0].Void},{"a":1,"n":"OnMouseUp","t":8,"sn":"OnMouseUp","rt":$n[0].Void},{"a":2,"n":"rowIndex","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_rowIndex","t":8,"rt":$n[0].Int32,"fg":"rowIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_rowIndex","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"rowIndex"},"fn":"rowIndex"},{"a":2,"n":"_renderer","t":4,"rt":$n[1].Renderer,"sn":"_renderer"},{"a":1,"n":"dragManager","t":4,"rt":DragAndDropManager,"sn":"dragManager"},{"a":1,"backing":true,"n":"<rowIndex>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"rowIndex","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*Stuff end.*/
 
     /*Winner start.*/
     $m("Winner", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter2D","t":8,"pi":[{"n":"other","pt":$n[1].Collider2D,"ps":0}],"sn":"OnTriggerEnter2D","rt":$n[0].Void,"p":[$n[1].Collider2D]}]}; }, $n);

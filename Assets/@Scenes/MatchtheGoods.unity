@@ -673,6 +673,8 @@ MonoBehaviour:
   verticalOffset: 0
   seed: 6
   prefabsParent: {fileID: 1873338243}
+  rowParentPrefab: {fileID: 4726392357979501466, guid: 896681528bc802345b0306a127ebbeb1,
+    type: 3}
   slotPrefab: {fileID: 6319796039447067821, guid: e6e2902f18f9a11439f75d97f26e4ad2,
     type: 3}
   stuffPrefab: {fileID: 8396817954704689261, guid: e23e1b01f3cd91942bfdd93cdd2833c3,
@@ -700,6 +702,7 @@ MonoBehaviour:
     wrongStuffCount: 3
   - material: {fileID: 2100000, guid: 78b0cc5c4d59f9a47b6624b60c443311, type: 2}
     wrongStuffCount: 3
+  rowMoveDownDuration: 0.6
 --- !u!1 &1873338241
 GameObject:
   m_ObjectHideFlags: 0

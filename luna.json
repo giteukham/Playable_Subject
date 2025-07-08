@@ -133,10 +133,10 @@
             ]
         },
         "scenes": [
-            "Assets/@SampleProject/Scenes/SampleScene.unity"
+            "Assets/@Scenes/MatchtheGoods.unity"
         ],
         "disabledScenes": [
-            "Assets/@Scenes/SampleScene.unity"
+            "Assets/@SampleProject/Scenes/SampleScene.unity"
         ],
         "startupScene": 0,
         "packages": {
