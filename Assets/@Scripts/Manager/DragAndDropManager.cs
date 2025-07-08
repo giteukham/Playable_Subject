@@ -29,6 +29,8 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (currentDraggedStuff != null) return;
 
+        if (GameManager.Instance != null) GameManager.Instance.OnPlayerInteraction();
+
         currentDraggedStuff = stuff;
         originalStuffPosition = stuff.transform.position; // 현재 월드 위치 저장
         

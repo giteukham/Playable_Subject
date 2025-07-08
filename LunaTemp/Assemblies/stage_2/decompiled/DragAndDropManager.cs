@@ -37,6 +37,10 @@ public class DragAndDropManager : MonoBehaviour
 	{
 		if (!(currentDraggedStuff != null))
 		{
+			if (GameManager.Instance != null)
+			{
+				GameManager.Instance.OnPlayerInteraction();
+			}
 			currentDraggedStuff = stuff;
 			originalStuffPosition = stuff.transform.position;
 			originalStuffParentSlot = stuff.GetComponentInParent<Slot>();

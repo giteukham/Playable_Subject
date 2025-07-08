@@ -129,7 +129,8 @@
             "includes": [
                 "Assets/Resources/DOTweenSettings.asset",
                 "Assets/@Sample/TextMesh Pro/Resources/TMP Settings.asset",
-                "Assets/@SampleProject/TextMesh Pro/Resources/TMP Settings.asset"
+                "Assets/@SampleProject/TextMesh Pro/Resources/TMP Settings.asset",
+                "Assets/TextMesh Pro/Resources/TMP Settings.asset"
             ]
         },
         "scenes": [
@@ -28183,6 +28184,26 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/@SampleProject/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
                     }
                 ]
             },

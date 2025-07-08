@@ -246,26 +246,35 @@ public class GridManager : MonoBehaviour
     private void ClearAndHide(int rowToHide)
     {
         GameObject rowParentGO = rowParents[rowToHide]; // 해당 줄의 부모 GameObject 가져오기
-        if (rowParentGO == null) // 이미 사라졌다면 (예외 처리)
-        {
-            return;
-        }
+        // 이미 사라졌다면 (예외 처리)
+        if (rowParentGO == null) return;
 
         Slot[] currentRowSlots = gridSlotsByRow[rowToHide];
-        if (currentRowSlots != null)
+
+        if (EffectsManager.Instance != null)
         {
-            foreach (Slot slot in currentRowSlots)
+            if(rowParentGO != null)
+                EffectsManager.Instance.PlayGoodTextEffect(rowParentGO.transform.position);
+            if (currentRowSlots != null)
             {
-                if (slot != null)
+                foreach (Slot slot in currentRowSlots)
                 {
-                    slot.ClearStuff(); 
+                    if (slot != null)
+                        EffectsManager.Instance.PlayRowClearEffect(slot.transform.position);
                 }
             }
         }
+        if (currentRowSlots != null)
+        {
+            foreach (Slot slot in currentRowSlots)
+                if (slot != null) slot.ClearStuff(); 
+        }
+        
 
         Destroy(rowParentGO); // 줄 부모 GameObject와 그 자식들 모두 파괴
         rowParents[rowToHide] = null; // 리스트에서 참조 제거
         gridSlotsByRow[rowToHide] = null; // 슬롯 참조 배열 제거
+        
 
         MoveRemainingRowsDown(rowToHide); // 남아있는 줄들을 아래로 내리는 애니메이션 시작
     }
@@ -285,9 +294,7 @@ public class GridManager : MonoBehaviour
                 for (int i = row + 1; i < TotalRows; i++)
                 {
                     if (isRowClearedByRowIndex(i)) 
-                    {
                         clearedRowsBelowCurrent++;
-                    }
                 }
 
                 float startY = (totalGridHeight / 2.0f) + verticalOffset;

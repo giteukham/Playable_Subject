@@ -55,3 +55,4 @@ C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\obj\De
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date
 C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb
+C:\Project\Playable_Subject\6.3.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll

@@ -21,7 +21,7 @@ public class Stuff : MonoBehaviour
 			dragManager = Object.FindObjectOfType<DragAndDropManager>();
 			if (dragManager == null)
 			{
-				Debug.LogError("DragAndDropManager가 씬에 없습니다.");
+				Debug.LogError("DragAndDropManager가 Scene에 없습니다.");
 			}
 		}
 	}

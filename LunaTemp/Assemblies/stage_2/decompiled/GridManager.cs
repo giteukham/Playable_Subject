@@ -253,10 +253,30 @@ public class GridManager : MonoBehaviour
 			return;
 		}
 		Slot[] currentRowSlots = gridSlotsByRow[rowToHide];
+		if (EffectsManager.Instance != null)
+		{
+			if (rowParentGO != null)
+			{
+				Debug.Log("rowParentGO != null");
+				EffectsManager.Instance.PlayGoodTextEffect(rowParentGO.transform.position);
+			}
+			if (currentRowSlots != null)
+			{
+				Debug.Log("currentRowSlots != null");
+				Slot[] array = currentRowSlots;
+				foreach (Slot slot2 in array)
+				{
+					if (slot2 != null)
+					{
+						EffectsManager.Instance.PlayRowClearEffect(slot2.transform.position);
+					}
+				}
+			}
+		}
 		if (currentRowSlots != null)
 		{
-			Slot[] array = currentRowSlots;
-			foreach (Slot slot in array)
+			Slot[] array2 = currentRowSlots;
+			foreach (Slot slot in array2)
 			{
 				if (slot != null)
 				{
@@ -302,6 +322,6 @@ public class GridManager : MonoBehaviour
 
 	private bool isRowClearedByRowIndex(int index)
 	{
-		return index >= 0 && index < isRowCleared.Length && isRowCleared != null && isRowCleared.Length != 0 && isRowCleared.Length > index && isRowCleared.GetValue(index) as bool? == true;
+		return index >= 0 && index < isRowCleared.Length && isRowCleared != null && isRowCleared.Length != 0 && isRowCleared.GetValue(index) as bool? == true;
 	}
 }
